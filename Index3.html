@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="./index.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Karantina:wght@400&display=swap" />
+  	
+  	
+  	
+</head>
+<body>
+  	
+  	<div class="div">
+    		<div class="background-3">
+    		</div>
+    		<div class="jsp" id="jSPText">JSP</div>
+    		<div class="videos-images">
+      			<img class="videos-images-child" alt="" src="Rectangle 20.png">
+      			
+      			<img class="videos-images-item" alt="" src="Rectangle 22.png">
+      			
+      			<img class="videos-images-inner" alt="" src="Rectangle 23.png">
+      			
+    		</div>
+    		<div class="videos">videos</div>
+    		<div class="videos-names">
+      			<div class="naive-what-container">
+        				<p class="naive-what">NAIVE - What should we do?</p>
+        				<p class="naive-what">(live)</p>
+      			</div>
+      			<div class="naive-my">NAIVE - My heart(didn”t stop)</div>
+      			<div class="naive-superstar">NAIVE - Superstar</div>
+    		</div>
+    		<div class="profile" id="profileContainer">
+      			<div class="profile-child">
+      			</div>
+      			<div class="profile-item">
+      			</div>
+      			<div class="profile-inner">
+      			</div>
+    		</div>
+  	</div>
+  	
+  	<div id="container" class="popup-overlay" style="display:none">
+    		
+    		<div class="div1">
+      			<div class="background-7">
+      			</div>
+      			<div class="profile-image">
+      			</div>
+      			<div class="user-123">User 123</div>
+      			<div class="user123">@user123</div>
+    		</div>
+    		
+    		
+  	</div>
+  	
+  	
+  	
+  	<script>
+    		var jSPText = document.getElementById("jSPText");
+    		if(jSPText) {
+      			jSPText.addEventListener("click", function (e) {
+        				// Add your code here
+      			});
+    		}
+    		
+    		var profileContainer = document.getElementById("profileContainer");
+    		if(profileContainer) {
+      			profileContainer.addEventListener("click", function () {
+        				var popup = document.getElementById("container");
+        				if(!popup) return;
+        				var popupStyle = popup.style;
+        				if(popupStyle) {
+          					popupStyle.display = "flex";
+          					popupStyle.zIndex = 100;
+          					popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+          					popupStyle.alignItems = "center";
+          					popupStyle.justifyContent = "center";
+        				}
+        				popup.setAttribute("closable", "");
+        				
+        				var onClick = popup.onClick || function(e) {
+          					if(e.target === popup && popup.hasAttribute("closable")) {
+            						popupStyle.display = "none";
+          					}
+        				};
+        				popup.addEventListener("click", onClick);
+      			});
+    		}</script></body>
+</html>

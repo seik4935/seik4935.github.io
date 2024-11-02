@@ -1,0 +1,172 @@
+.background-3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #00062e;
+    width: 412px;
+    height: 917px;
+}
+.jsp {
+    position: absolute;
+    top: 0px;
+    left: 314px;
+    text-decoration: underline;
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.videos-images-child {
+    position: absolute;
+    top: 506px;
+    left: 0px;
+    border-radius: 50px;
+    width: 348px;
+    height: 196px;
+    object-fit: cover;
+}
+.videos-images-item {
+    position: absolute;
+    top: 253px;
+    left: 0px;
+    border-radius: 50px;
+    width: 348px;
+    height: 196px;
+    object-fit: cover;
+}
+.videos-images-inner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50px;
+    width: 348px;
+    height: 196px;
+    object-fit: cover;
+}
+.videos-images {
+    position: absolute;
+    top: 107px;
+    left: 32px;
+    width: 348px;
+    height: 702px;
+}
+.videos {
+    position: absolute;
+    top: 16px;
+    left: 154px;
+    font-size: 64px;
+}
+.naive-what {
+    margin: 0;
+}
+.naive-what-container {
+    position: absolute;
+    top: 511px;
+    left: 5px;
+}
+.naive-my {
+    position: absolute;
+    top: 255px;
+    left: 0px;
+}
+.naive-superstar {
+    position: absolute;
+    top: 0px;
+    left: 56px;
+}
+.videos-names {
+    position: absolute;
+    top: 309px;
+    left: 77px;
+    width: 290px;
+    height: 591px;
+    font-size: 40px;
+}
+.profile-child {
+    position: absolute;
+    top: -1.5px;
+    left: -1.5px;
+    border-top: 3px solid #fff;
+    box-sizing: border-box;
+    width: 23px;
+    height: 3px;
+}
+.profile-item {
+    position: absolute;
+    top: 5.5px;
+    left: -1.5px;
+    border-top: 3px solid #fff;
+    box-sizing: border-box;
+    width: 23px;
+    height: 3px;
+}
+.profile-inner {
+    position: absolute;
+    top: 12.5px;
+    left: -1.5px;
+    border-top: 3px solid #fff;
+    box-sizing: border-box;
+    width: 23px;
+    height: 3px;
+}
+.profile {
+    position: absolute;
+    top: 16px;
+    left: 12px;
+    width: 20px;
+    height: 14px;
+}
+.div {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 917px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 96px;
+    color: #fff;
+    font-family: Karantina;
+}
+
+
+.background-7 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #000;
+    width: 412px;
+    height: 917px;
+}
+.profile-image {
+    position: absolute;
+    top: 47px;
+    left: 22px;
+    border-radius: 50%;
+    background-color: #5f9221;
+    width: 99px;
+    height: 99px;
+}
+.user-123 {
+    position: absolute;
+    top: 47px;
+    left: 136px;
+}
+.user123 {
+    position: absolute;
+    top: 81px;
+    left: 152px;
+    font-size: 20px;
+    color: #5f9221;
+}
+.div1 {
+    width: 272px;
+    position: relative;
+    background-color: #fff;
+    height: 917px;
+    overflow: hidden;
+    max-width: 90%;
+    max-height: 90%;
+    text-align: left;
+    font-size: 40px;
+    color: #fff;
+    font-family: Karantina;
+}
+

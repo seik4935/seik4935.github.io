@@ -1,0 +1,129 @@
+.background-1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #00062e;
+    width: 412px;
+    height: 917px;
+}
+.jsp {
+    position: absolute;
+    top: 0px;
+    left: 151px;
+    font-size: 96px;
+}
+.hello {
+    position: absolute;
+    top: 82px;
+    left: 0px;
+}
+.or {
+    position: absolute;
+    top: 386px;
+    left: 15px;
+}
+.hello-jsp-or {
+    position: absolute;
+    top: 0px;
+    left: 163px;
+    width: 232px;
+    height: 451px;
+    color: #f5f5f5;
+}
+.sign-in-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50px;
+    background-color: #000;
+    width: 235px;
+    height: 234px;
+}
+.sign-in1 {
+    position: absolute;
+    top: 13px;
+    left: 77px;
+    font-size: 32px;
+    font-family: 'Abhaya Libre ExtraBold';
+    display: inline-block;
+    width: 139px;
+    height: 86px;
+}
+.email-or-username {
+    position: absolute;
+    top: 80px;
+    left: 55px;
+}
+.sign-in-item {
+    position: absolute;
+    top: 117px;
+    left: 55px;
+    border-radius: 50px;
+    background-color: #fff;
+    width: 135px;
+    height: 22px;
+}
+.sign-in-inner {
+    position: absolute;
+    top: 189px;
+    left: 55px;
+    border-radius: 50px;
+    background-color: #fff;
+    width: 135px;
+    height: 22px;
+}
+.password {
+    position: absolute;
+    top: 152px;
+    left: 79px;
+}
+.sign-in {
+    position: absolute;
+    top: 152px;
+    left: 84px;
+    width: 235px;
+    height: 234px;
+    font-size: 24px;
+}
+.create-new-aacount {
+    position: absolute;
+    top: 0px;
+    left: 52px;
+    font-size: 32px;
+    font-family: 'Abhaya Libre ExtraBold';
+    display: inline-block;
+    width: 172px;
+    height: 77px;
+}
+.email {
+    position: absolute;
+    top: 75px;
+    left: 101px;
+}
+.create-new-account {
+    position: absolute;
+    top: 470px;
+    left: 84px;
+    width: 235px;
+    height: 234px;
+    font-size: 24px;
+}
+.lets-start-with {
+    position: absolute;
+    top: 788px;
+    left: 51px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.div {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 917px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 64px;
+    color: #fff;
+    font-family: Karantina;
+}
+

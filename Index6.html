@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="./index.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Karantina:wght@400&display=swap" />
+  	
+  	
+  	
+</head>
+<body>
+  	
+  	<div class="div">
+    		<div class="background-6">
+    		</div>
+    		<div class="jsp" id="jSPText">JSP</div>
+    		<div class="calls">calls</div>
+    		<div class="names-surnames">
+      			<div class="name-surname">Name Surname</div>
+      			<div class="name-surname1">Name Surname</div>
+      			<div class="name-surname2">Name Surname</div>
+      			<div class="name-surname3">Name Surname</div>
+      			<div class="name-surname4">Name Surname</div>
+      			<div class="name-surname5">Name Surname</div>
+      			<div class="name-surname6">Name Surname</div>
+      			<div class="name-surname7">Name Surname</div>
+      			<div class="name-surname8">Name Surname</div>
+      			<div class="name-surname9">Name Surname</div>
+      			<div class="name-surname10">Name Surname</div>
+      			<div class="name-surname11">Name Surname</div>
+      			<div class="name-surname12">Name Surname</div>
+      			<div class="name-surname13">Name Surname</div>
+    		</div>
+    		<div class="numbers">
+      			<div class="name-surname">9(00)436-42-4681</div>
+      			<div class="name-surname1">9(00)436-42-4681</div>
+      			<div class="name-surname2">9(00)436-42-4681</div>
+      			<div class="name-surname3">9(00)436-42-4681</div>
+      			<div class="name-surname4">9(00)436-42-4681</div>
+      			<div class="name-surname5">9(00)436-42-4681</div>
+      			<div class="name-surname6">9(00)436-42-4681</div>
+      			<div class="name-surname7">9(00)436-42-4681</div>
+      			<div class="name-surname8">9(00)436-42-4681</div>
+      			<div class="name-surname9">9(00)436-42-4681</div>
+      			<div class="name-surname10">9(00)436-42-4681</div>
+      			<div class="name-surname11">9(00)436-42-4681</div>
+      			<div class="name-surname12">9(00)436-42-4681</div>
+      			<div class="name-surname13">9(00)436-42-4681</div>
+    		</div>
+    		<div class="profile" id="profileContainer">
+      			<div class="profile-child">
+      			</div>
+      			<div class="profile-item">
+      			</div>
+      			<div class="profile-inner">
+      			</div>
+    		</div>
+  	</div>
+  	
+  	<div id="container" class="popup-overlay" style="display:none">
+    		
+    		<div class="div15">
+      			<div class="background-7">
+      			</div>
+      			<div class="profile-image">
+      			</div>
+      			<div class="user-123">User 123</div>
+      			<div class="user123">@user123</div>
+    		</div>
+    		
+    		
+  	</div>
+  	
+  	
+  	
+  	<script>
+    		var jSPText = document.getElementById("jSPText");
+    		if(jSPText) {
+      			jSPText.addEventListener("click", function (e) {
+        				// Add your code here
+      			});
+    		}
+    		
+    		var profileContainer = document.getElementById("profileContainer");
+    		if(profileContainer) {
+      			profileContainer.addEventListener("click", function () {
+        				var popup = document.getElementById("container");
+        				if(!popup) return;
+        				var popupStyle = popup.style;
+        				if(popupStyle) {
+          					popupStyle.display = "flex";
+          					popupStyle.zIndex = 100;
+          					popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+          					popupStyle.alignItems = "center";
+          					popupStyle.justifyContent = "center";
+        				}
+        				popup.setAttribute("closable", "");
+        				
+        				var onClick = popup.onClick || function(e) {
+          					if(e.target === popup && popup.hasAttribute("closable")) {
+            						popupStyle.display = "none";
+          					}
+        				};
+        				popup.addEventListener("click", onClick);
+      			});
+    		}</script></body>
+</html>

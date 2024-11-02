@@ -1,0 +1,197 @@
+.background-6 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #00062e;
+    width: 412px;
+    height: 917px;
+}
+.jsp {
+    position: absolute;
+    top: 0px;
+    left: 314px;
+    font-size: 96px;
+    text-decoration: underline;
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.calls {
+    position: absolute;
+    top: 17px;
+    left: 167px;
+    font-size: 64px;
+}
+.name-surname {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.name-surname1 {
+    position: absolute;
+    top: 51px;
+    left: 0px;
+}
+.name-surname2 {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+}
+.name-surname3 {
+    position: absolute;
+    top: 151px;
+    left: 0px;
+}
+.name-surname4 {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+}
+.name-surname5 {
+    position: absolute;
+    top: 251px;
+    left: 0px;
+}
+.name-surname6 {
+    position: absolute;
+    top: 300px;
+    left: 0px;
+}
+.name-surname7 {
+    position: absolute;
+    top: 351px;
+    left: 0px;
+}
+.name-surname8 {
+    position: absolute;
+    top: 400px;
+    left: 0px;
+}
+.name-surname9 {
+    position: absolute;
+    top: 451px;
+    left: 0px;
+}
+.name-surname10 {
+    position: absolute;
+    top: 500px;
+    left: 0px;
+}
+.name-surname11 {
+    position: absolute;
+    top: 551px;
+    left: 0px;
+}
+.name-surname12 {
+    position: absolute;
+    top: 600px;
+    left: 0px;
+}
+.name-surname13 {
+    position: absolute;
+    top: 651px;
+    left: 0px;
+}
+.names-surnames {
+    position: absolute;
+    top: 110px;
+    left: 31px;
+    width: 136px;
+    height: 687px;
+}
+.numbers {
+    position: absolute;
+    top: 110px;
+    left: 206px;
+    width: 154px;
+    height: 687px;
+}
+.profile-child {
+    position: absolute;
+    top: -1.5px;
+    left: -1.5px;
+    border-top: 3px solid #fff;
+    box-sizing: border-box;
+    width: 23px;
+    height: 3px;
+}
+.profile-item {
+    position: absolute;
+    top: 5.5px;
+    left: -1.5px;
+    border-top: 3px solid #fff;
+    box-sizing: border-box;
+    width: 23px;
+    height: 3px;
+}
+.profile-inner {
+    position: absolute;
+    top: 12.5px;
+    left: -1.5px;
+    border-top: 3px solid #fff;
+    box-sizing: border-box;
+    width: 23px;
+    height: 3px;
+}
+.profile {
+    position: absolute;
+    top: 17px;
+    left: 11px;
+    width: 20px;
+    height: 14px;
+}
+.div {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 917px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 36px;
+    color: #fff;
+    font-family: Karantina;
+}
+
+
+.background-7 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #000;
+    width: 412px;
+    height: 917px;
+}
+.profile-image {
+    position: absolute;
+    top: 47px;
+    left: 22px;
+    border-radius: 50%;
+    background-color: #5f9221;
+    width: 99px;
+    height: 99px;
+}
+.user-123 {
+    position: absolute;
+    top: 47px;
+    left: 136px;
+}
+.user123 {
+    position: absolute;
+    top: 81px;
+    left: 152px;
+    font-size: 20px;
+    color: #5f9221;
+}
+.div15 {
+    width: 272px;
+    position: relative;
+    background-color: #fff;
+    height: 917px;
+    overflow: hidden;
+    max-width: 90%;
+    max-height: 90%;
+    text-align: left;
+    font-size: 40px;
+    color: #fff;
+    font-family: Karantina;
+}
+

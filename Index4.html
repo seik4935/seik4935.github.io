@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="./index.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Karantina:wght@400&display=swap" />
+  	
+  	
+  	
+</head>
+<body>
+  	
+  	<div class="div">
+    		<div class="background-4">
+    		</div>
+    		<div class="jsp" id="jSPText">JSP</div>
+    		<div class="channels">channels</div>
+    		<div class="channels-images">
+      			<img class="channels-images-child" alt="" src="Rectangle 29.png">
+      			
+      			<img class="channels-images-item" alt="" src="Rectangle 32.png">
+      			
+      			<img class="channels-images-inner" alt="" src="Rectangle 33.png">
+      			
+      			<img class="rectangle-icon" alt="" src="Rectangle 34.png">
+      			
+      			<img class="channels-images-child1" alt="" src="Rectangle 35.png">
+      			
+      			<img class="channels-images-child2" alt="" src="Rectangle 36.png">
+      			
+      			<img class="channels-images-child3" alt="" src="Rectangle 37.png">
+      			
+      			<img class="channels-images-child4" alt="" src="Rectangle 38.png">
+      			
+      			<img class="channels-images-child5" alt="" src="Rectangle 39.png">
+      			
+      			<img class="channels-images-child6" alt="" src="Rectangle 40.png">
+      			
+      			<img class="channels-images-child7" alt="" src="Rectangle 30.png">
+      			
+      			<img class="channels-images-child8" alt="" src="Rectangle 31.png">
+      			
+    		</div>
+    		<div class="chanels-names">
+      			<div class="chanel-wrapper">
+        				<div class="chanel">Chanel</div>
+      			</div>
+      			<div class="chanel-parent">
+        				<div class="chanel">Chanel</div>
+        				<div class="chanel-container">
+          					<div class="chanel">Chanel</div>
+        				</div>
+      			</div>
+      			<div class="chanel-frame">
+        				<div class="chanel">Chanel</div>
+      			</div>
+      			<div class="chanel4">Chanel</div>
+      			<div class="group-div">
+        				<div class="chanel">Chanel</div>
+      			</div>
+      			<div class="chanel-wrapper1">
+        				<div class="chanel">Chanel</div>
+      			</div>
+      			<div class="chanel7">Chanel</div>
+      			<div class="chanel8">Chanel</div>
+      			<div class="chanel-wrapper2">
+        				<div class="chanel">Chanel</div>
+      			</div>
+      			<div class="chanel-wrapper3">
+        				<div class="chanel">Chanel</div>
+      			</div>
+      			<div class="chanel-wrapper4">
+        				<div class="chanel">Chanel</div>
+      			</div>
+    		</div>
+    		<div class="profile" id="profileContainer">
+      			<div class="profile-child">
+      			</div>
+      			<div class="profile-item">
+      			</div>
+      			<div class="profile-inner">
+      			</div>
+    		</div>
+    		<div class="line-parent">
+      			<div class="profile-child">
+      			</div>
+      			<div class="profile-item">
+      			</div>
+      			<div class="profile-inner">
+      			</div>
+    		</div>
+  	</div>
+  	
+  	<div id="container" class="popup-overlay" style="display:none">
+    		
+    		<div class="div1">
+      			<div class="background-7">
+      			</div>
+      			<div class="profile-image">
+      			</div>
+      			<div class="user-123">User 123</div>
+      			<div class="user123">@user123</div>
+    		</div>
+    		
+    		
+  	</div>
+  	
+  	
+  	
+  	<script>
+    		var jSPText = document.getElementById("jSPText");
+    		if(jSPText) {
+      			jSPText.addEventListener("click", function (e) {
+        				// Add your code here
+      			});
+    		}
+    		
+    		var profileContainer = document.getElementById("profileContainer");
+    		if(profileContainer) {
+      			profileContainer.addEventListener("click", function () {
+        				var popup = document.getElementById("container");
+        				if(!popup) return;
+        				var popupStyle = popup.style;
+        				if(popupStyle) {
+          					popupStyle.display = "flex";
+          					popupStyle.zIndex = 100;
+          					popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+          					popupStyle.alignItems = "center";
+          					popupStyle.justifyContent = "center";
+        				}
+        				popup.setAttribute("closable", "");
+        				
+        				var onClick = popup.onClick || function(e) {
+          					if(e.target === popup && popup.hasAttribute("closable")) {
+            						popupStyle.display = "none";
+          					}
+        				};
+        				popup.addEventListener("click", onClick);
+      			});
+    		}</script></body>
+</html>

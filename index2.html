@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="./index.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Karantina:wght@400&display=swap" />
+  	
+  	
+  	
+</head>
+<body>
+  	
+  	<div class="div">
+    		<div class="background-2">
+    		</div>
+    		<div class="channels">
+      			<div class="channels-child" id="rectangle">
+      			</div>
+      			<div class="channels1">channels</div>
+    		</div>
+    		<div class="videos">
+      			<div class="channels-child" id="rectangle">
+      			</div>
+      			<div class="videos1">videos</div>
+    		</div>
+    		<div class="charts">
+      			<div class="channels-child" id="rectangle">
+      			</div>
+      			<div class="chats">chats</div>
+    		</div>
+    		<div class="calls">
+      			<div class="channels-child" id="rectangle">
+      			</div>
+      			<div class="calls1">calls</div>
+    		</div>
+    		<div class="news">
+      			<div class="news-child">
+      			</div>
+      			<div class="news1">NEWS</div>
+    		</div>
+    		<div class="news-pictures">
+      			<img class="news-pictures-child" alt="" src="Rectangle 10.png">
+      			
+      			<img class="news-pictures-item" alt="" src="Rectangle 16.png">
+      			
+      			<img class="news-pictures-inner" alt="" src="Rectangle 17.png">
+      			
+    		</div>
+    		<div class="jsp">JSP</div>
+    		<div class="news-texts">
+      			<a class="breaking-news-english" href="https://breakingnewsenglish.com/" target="_blank">Breaking News English Lesson: Standing on one leg</a>
+      			<a class="breaking-news-english1" href="https://breakingnewsenglish.com/" target="_blank">Breaking News English Lesson: Ocean Currents</a>
+      			<a class="breaking-news-english2" href="https://breakingnewsenglish.com/" target="_blank">Breaking News English Lesson: Hugging at Airports</a>
+    		</div>
+    		<div class="home-page">home page</div>
+    		<div class="profile" id="profileContainer">
+      			<div class="profile-child">
+      			</div>
+      			<div class="profile-item">
+      			</div>
+      			<div class="profile-inner">
+      			</div>
+    		</div>
+  	</div>
+  	
+  	<div id="container" class="popup-overlay" style="display:none">
+    		
+    		<div class="div1">
+      			<div class="background-7">
+      			</div>
+      			<div class="profile-image">
+      			</div>
+      			<div class="user-123">User 123</div>
+      			<div class="user123">@user123</div>
+    		</div>
+    		
+    		
+  	</div>
+  	
+  	
+  	
+  	<script>
+    		var rectangle = document.getElementById("rectangle");
+    		if(rectangle) {
+      			rectangle.addEventListener("click", function (e) {
+        				// Add your code here
+      			});
+    		}
+    		
+    		var profileContainer = document.getElementById("profileContainer");
+    		if(profileContainer) {
+      			profileContainer.addEventListener("click", function () {
+        				var popup = document.getElementById("container");
+        				if(!popup) return;
+        				var popupStyle = popup.style;
+        				if(popupStyle) {
+          					popupStyle.display = "flex";
+          					popupStyle.zIndex = 100;
+          					popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+          					popupStyle.alignItems = "center";
+          					popupStyle.justifyContent = "center";
+        				}
+        				popup.setAttribute("closable", "");
+        				
+        				var onClick = popup.onClick || function(e) {
+          					if(e.target === popup && popup.hasAttribute("closable")) {
+            						popupStyle.display = "none";
+          					}
+        				};
+        				popup.addEventListener("click", onClick);
+      			});
+    		}</script></body>
+</html>
